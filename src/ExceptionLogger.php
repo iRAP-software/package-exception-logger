@@ -37,7 +37,7 @@ class ExceptionLogger
             );
             
             $allContext = array_merge($context, $extraContext);
-            $message = "{$serviceName} - Uncaught exception";
+            $message = "{$serviceName}: Uncaught exception";
             $logger->log($logLevel, $message, $context);
             $next($throwable);
         };
