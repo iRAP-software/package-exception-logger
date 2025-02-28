@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "irap/logging": "2.1.*"
+        "irap/logging": "dev-php8.4"
     },
     "require-dev": {
         "irap/autoloader": "^1.0"
